@@ -2,7 +2,8 @@
 	"name": "shopeo/shopeo-elementor-plugin-scaffold",
 	"autoload": {
 		"psr-4": {
-			"Shopeo\\ShopeoElementorPluginScaffold\\": "src/"
+			"Shopeo\\ShopeoElementorPluginScaffold\\": "src/",
+			"Shopeo\\ShopeoElementorPluginScaffold\\Widgets\\": "src/Widgets/"
 		}
 	},
 	"authors": [

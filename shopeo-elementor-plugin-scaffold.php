@@ -21,6 +21,8 @@ if (file_exists(__DIR__ . '/vendor/autoload.php')) {
 	require_once 'vendor/autoload.php';
 }
 
+use Shopeo\ShopeoElementorPluginScaffold\Widgets\ShopeoHelloWidget;
+
 if (!defined('SHOPEO_PLUGIN_SCAFFOLD_PLUGIN_FILE')) {
 	define('SHOPEO_PLUGIN_SCAFFOLD_PLUGIN_FILE', __FILE__);
 }
@@ -77,3 +79,26 @@ add_action('wp_enqueue_scripts', function () {
 		'ajax_url' => admin_url('admin-ajax.php')
 	));
 });
+
+if (!function_exists('shopeo_elemetor_plugin_scaffold_register_categories')) {
+	function shopeo_elemetor_plugin_scaffold_register_categories($elements_manager)
+	{
+		$elements_manager->add_category(
+			'shopeo', [
+				'title' => esc_html__('Shopeo', 'se_elementor'),
+			]
+		);
+	}
+}
+
+add_action('elementor/elements/categories_registered', 'shopeo_elemetor_plugin_scaffold_register_categories');
+
+
+if (!function_exists('shopeo_elemetor_plugin_scaffold_register_widgets')) {
+	function shopeo_elemetor_plugin_scaffold_register_widgets($widgets_manager)
+	{
+		$widgets_manager->register(new ShopeoHelloWidget());
+	}
+}
+
+add_action('elementor/widgets/register', 'shopeo_elemetor_plugin_scaffold_register_widgets');

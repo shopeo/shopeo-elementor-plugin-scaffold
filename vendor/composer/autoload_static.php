@@ -9,11 +9,16 @@ class ComposerStaticInit6d0027eaf93ab9c5b079175a5258bf85
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
+            'Shopeo\\ShopeoElementorPluginScaffold\\Widgets\\' => 45,
             'Shopeo\\ShopeoElementorPluginScaffold\\' => 37,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Shopeo\\ShopeoElementorPluginScaffold\\Widgets\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Widgets',
+        ),
         'Shopeo\\ShopeoElementorPluginScaffold\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',

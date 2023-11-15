@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'shopeo/shopeo-elementor-plugin-scaffold',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'be5363d745fb3e40d54e149b484b46328dd4532b',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'shopeo/shopeo-elementor-plugin-scaffold' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'be5363d745fb3e40d54e149b484b46328dd4532b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

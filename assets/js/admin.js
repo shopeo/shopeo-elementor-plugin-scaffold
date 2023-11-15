@@ -37,6 +37,32 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
 
+/***/ }),
+
+/***/ "./src/assets/widgets/hello/scss/widget.scss":
+/*!***************************************************!*\
+  !*** ./src/assets/widgets/hello/scss/widget.scss ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./src/assets/widgets/hello/scss/widget-rtl.scss":
+/*!*******************************************************!*\
+  !*** ./src/assets/widgets/hello/scss/widget-rtl.scss ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
 /***/ })
 
 /******/ 	});
@@ -126,6 +152,8 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/assets/js/admin": 0,
+/******/ 			"assets/widgets/hello/css/widget-rtl": 0,
+/******/ 			"assets/widgets/hello/css/widget": 0,
 /******/ 			"assets/css/style-rtl": 0,
 /******/ 			"assets/css/style": 0
 /******/ 		};
@@ -167,7 +195,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkshopeo_plugin_scaffold"] = self["webpackChunkshopeo_plugin_scaffold"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunkshopeo_elementor_plugin_scaffold"] = self["webpackChunkshopeo_elementor_plugin_scaffold"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
@@ -177,9 +205,11 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["assets/css/style-rtl","assets/css/style"], () => (__webpack_require__("./src/assets/js/admin.js")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/style-rtl","assets/css/style"], () => (__webpack_require__("./src/assets/scss/style.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/css/style-rtl","assets/css/style"], () => (__webpack_require__("./src/assets/scss/style-rtl.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/widgets/hello/css/widget-rtl","assets/widgets/hello/css/widget","assets/css/style-rtl","assets/css/style"], () => (__webpack_require__("./src/assets/js/admin.js")))
+/******/ 	__webpack_require__.O(undefined, ["assets/widgets/hello/css/widget-rtl","assets/widgets/hello/css/widget","assets/css/style-rtl","assets/css/style"], () => (__webpack_require__("./src/assets/scss/style.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/widgets/hello/css/widget-rtl","assets/widgets/hello/css/widget","assets/css/style-rtl","assets/css/style"], () => (__webpack_require__("./src/assets/scss/style-rtl.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/widgets/hello/css/widget-rtl","assets/widgets/hello/css/widget","assets/css/style-rtl","assets/css/style"], () => (__webpack_require__("./src/assets/widgets/hello/scss/widget.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/widgets/hello/css/widget-rtl","assets/widgets/hello/css/widget","assets/css/style-rtl","assets/css/style"], () => (__webpack_require__("./src/assets/widgets/hello/scss/widget-rtl.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

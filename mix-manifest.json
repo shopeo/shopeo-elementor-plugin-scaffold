@@ -1,6 +1,9 @@
 {
     "/assets/js/admin.js": "/assets/js/admin.js",
     "/assets/js/app.js": "/assets/js/app.js",
+    "/assets/widgets/hello/js/widget.js": "/assets/widgets/hello/js/widget.js",
+    "/assets/widgets/hello/css/widget-rtl.css": "/assets/widgets/hello/css/widget-rtl.css",
+    "/assets/widgets/hello/css/widget.css": "/assets/widgets/hello/css/widget.css",
     "/assets/css/style-rtl.css": "/assets/css/style-rtl.css",
     "/assets/css/style.css": "/assets/css/style.css"
 }

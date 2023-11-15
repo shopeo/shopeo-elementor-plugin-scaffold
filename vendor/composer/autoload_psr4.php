@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Shopeo\\ShopeoElementorPluginScaffold\\Widgets\\' => array($baseDir . '/src/Widgets'),
     'Shopeo\\ShopeoElementorPluginScaffold\\' => array($baseDir . '/src'),
 );

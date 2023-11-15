@@ -3,4 +3,5 @@
 
 ## Depend Tools
 
-https://github.com/TGMPA/TGM-Plugin-Activation
+- https://developers.elementor.com/docs/
+- https://github.com/TGMPA/TGM-Plugin-Activation
