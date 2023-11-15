@@ -1,0 +1,16 @@
+{
+	"name": "shopeo/shopeo-elementor-plugin-scaffold",
+	"autoload": {
+		"psr-4": {
+			"Shopeo\\ShopeoElementorPluginScaffold\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "SHOPEO",
+			"email": "hello@shopeo.cn",
+			"homepage": "https://shopeo.cn"
+		}
+	],
+	"require": {}
+}
