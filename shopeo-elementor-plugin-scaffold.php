@@ -3,7 +3,7 @@
  * Plugin Name: SHOPEO Elementor Plugin Scaffold
  * Plugin URI: https://wordpress.org/plugins/shopeo-elementor-plugin-scaffold
  * Description:
- * Author: Shopeo
+ * Author: SHOPEO
  * Version: 0.0.1
  * Author URI: https://shopeo.cn
  * License: GPL3+
